@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#090b17" />
+  <meta name="description" content="Portfolio of Syed Farukh Abbas Shah — Computer Science student, developer, and machine learning enthusiast." />
+  <title>Syed Farukh Abbas Shah | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Farukh home"><span class="brand-mark">&lt;/&gt;</span><span>SFS<span class="brand-dot">.</span></span></a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="nav" id="nav">
+      <a class="active" href="#home">Home</a><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#education">Education</a>
+    </nav>
+    <a class="header-cta" href="#contact"><span>↗</span> Get in touch</a>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> Hello, I'm</p>
+        <h1>Syed Farukh<br><span>Abbas Shah</span></h1>
+        <p class="role">Computer Science Student <b>|</b> Developer <b>|</b> ML Enthusiast</p>
+        <p class="intro">I enjoy building practical solutions, exploring Machine Learning, and turning ideas into useful software. I'm always learning, experimenting, and improving one project at a time.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects"><span>✦</span> Explore my work</a>
+          <a class="button secondary" href="#contact"><span>✉</span> Contact me</a>
+        </div>
+        <div class="social-row">
+          <a href="https://github.com/TheSFS" target="_blank" rel="noreferrer"><span class="social-icon">⌘</span> GitHub <span class="external">↗</span></a>
+          <span class="social-separator"></span>
+          <a href="mailto:farukhabbasshah.bscsf24@iba-suk.edu.pk"><span class="social-icon">✉</span> Email me</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="portrait-halo"></div>
+        <div class="portrait-frame"><img src="pic.png" alt="Cartoon portrait of Syed Farukh Abbas Shah"></div>
+        <div class="availability"><span class="status-dot"></span> Open to learning & opportunities</div>
+      </div>
+    </section>
+
+    <section class="info-grid section-wrap" id="about">
+      <article class="panel about-panel">
+        <div class="section-heading"><span class="heading-icon">◉</span><h2>About me</h2></div>
+        <p>I'm a BS Computer Science student with a strong interest in software development, machine learning, and building real-world solutions. I enjoy working on projects that solve practical problems and help me grow as a developer.</p>
+        <div class="chips"><span>🎓 BS Computer Science</span><span>📍 Sindh, Pakistan</span><span>⌘ Curious builder</span></div>
+      </article>
+      <article class="panel skills-panel" id="skills">
+        <div class="section-heading"><span class="heading-icon">▱</span><h2>Tech stack & skills</h2></div>
+        <div class="skill-list">
+          <span><b class="skill-java">J</b> Java</span><span><b class="skill-c">C</b> C / C++</span><span><b class="skill-python">Py</b> Python</span><span><b class="skill-js">JS</b> JavaScript</span><span><b class="skill-html">5</b> HTML</span><span><b class="skill-css">3</b> CSS</span><span><b class="skill-db">▤</b> MySQL</span><span><b class="skill-mongo">●</b> MongoDB</span><span><b class="skill-flask">◒</b> Flask</span><span><b class="skill-ml">✳</b> Machine Learning</span><span><b class="skill-git">⌁</b> Git & GitHub</span><span><b class="skill-data">▥</b> Pandas</span>
+        </div>
+      </article>
+    </section>
+
+    <section class="projects section-wrap" id="projects">
+      <div class="section-heading project-title"><span class="heading-icon">▣</span><h2>Featured projects</h2><span class="heading-line"></span><span class="small-label">Selected work</span></div>
+      <div class="project-grid">
+        <article class="project-card"><div class="project-icon purple">▣</div><div class="project-content"><div class="project-top"><h3>Lost & Found Management System</h3><span>↗</span></div><p>A web application to report and find lost or found items, with user authentication and item tracking.</p><div class="tags"><span>Node.js</span><span>Express</span><span>MongoDB</span></div></div></article>
+        <article class="project-card"><div class="project-icon blue">▥</div><div class="project-content"><div class="project-top"><h3>T20 Cricket Score Prediction</h3><span>↗</span></div><p>Machine learning project using XGBoost Regression to predict match scores with a Flask interface.</p><div class="tags"><span>Python</span><span>XGBoost</span><span>Flask</span><span>SHAP</span></div></div></article>
+        <article class="project-card"><div class="project-icon pink">⬡</div><div class="project-content"><div class="project-top"><h3>SMS Spam Detection</h3><span>↗</span></div><p>Text classification project comparing Naive Bayes and Logistic Regression for spam detection.</p><div class="tags"><span>Python</span><span>Scikit-learn</span><span>NLP</span></div></div></article>
+      </div>
+      <p class="project-note">More projects and code are available on <a href="https://github.com/TheSFS" target="_blank" rel="noreferrer">GitHub ↗</a>.</p>
+    </section>
+
+    <section class="bottom-grid section-wrap">
+      <article class="panel education-panel" id="education">
+        <div class="section-heading"><span class="heading-icon">♧</span><h2>Education</h2></div>
+        <div class="education-entry"><div class="timeline-dot"></div><div><h3>BS in Computer Science</h3><p>IBA Sukkur (Sukkur IBA University)</p><p class="muted">Expected graduation: 2028</p></div><span class="date-pill">2024 — 2028</span></div>
+      </article>
+      <article class="panel contact-panel" id="contact">
+        <div class="section-heading"><span class="heading-icon">➤</span><h2>Let's connect</h2></div>
+        <p>Have a project idea, opportunity, or just want to say hello? I'd be happy to hear from you.</p>
+        <div class="contact-actions"><a class="button primary" href="mailto:farukhabbasshah.bscsf24@iba-suk.edu.pk">✉ Email me</a><a class="button secondary" href="https://github.com/TheSFS" target="_blank" rel="noreferrer">⌘ GitHub</a></div>
+      </article>
+    </section>
+  </main>
+  <footer class="footer section-wrap"><span>Designed & built by <b>Farukh Abbas Shah</b></span><span>© <span id="year"></span> · Made with curiosity <span class="heart">♥</span></span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
